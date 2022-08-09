@@ -61,7 +61,7 @@ header nav ul li:last-of-type a{
 .main-banner article{
     max-width: 510px
 }
-.main-banner article p:first-of-type{
+.article-p1{
     padding-top: 137px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
