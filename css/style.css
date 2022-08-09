@@ -91,7 +91,7 @@ h1{
     line-height: 70px;
     color: #1B1A1A;
 }
-.main-banner article a{
+.article-link{
     margin-left: 25px; text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
