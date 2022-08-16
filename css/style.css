@@ -1,36 +1,43 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     padding-bottom: 22px;
     padding-top: 22px;
 }
-.container{
+
+.container {
     max-width: 1148px;
     margin: auto;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     list-style: none;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-header nav ul li{
+
+header nav ul li {
     transition: 0.4s;
     margin: 0 16px;
 }
-header nav ul li:hover{
+
+header nav ul li:hover {
     transform: rotate(360deg);
 }
-header nav ul li:last-of-type{
+
+header nav ul li:last-of-type {
     margin: 0 0 0 15px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -40,7 +47,7 @@ header nav ul li a{
     color: #1B1A1A;
 }
 
-header nav ul li:last-of-type a{
+header nav ul li:last-of-type a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -53,15 +60,18 @@ header nav ul li:last-of-type a{
     padding: 11px 20px;
 
 }
-.main-banner{
+
+.main-banner {
     background-color: #ECE7E4;
     height: 90vh;
     position: relative
 }
-.main-banner article{
+
+.main-banner article {
     max-width: 510px
 }
-.article-p1{
+
+.article-p1 {
     padding-top: 137px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
@@ -73,7 +83,8 @@ header nav ul li:last-of-type a{
     text-transform: uppercase;
     color: #645C55;
 }
-.article-p2{
+
+.article-p2 {
     margin-bottom: 41px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -82,7 +93,8 @@ header nav ul li:last-of-type a{
     line-height: 24px;
     color: #403E3B;
 }
-h1{
+
+h1 {
     margin-bottom: 18px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -91,8 +103,10 @@ h1{
     line-height: 70px;
     color: #1B1A1A;
 }
-.article-link{
-    margin-left: 25px; text-decoration: none;
+
+.article-link {
+    margin-left: 25px;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -101,27 +115,37 @@ h1{
     letter-spacing: 0.4px;
     color: #1B1A1A;
 }
-.main-banner-container{
-    max-width: 1200px; margin: auto;
+
+.main-banner-container {
+    max-width: 1200px;
+    margin: auto;
 }
-.article-container{
+
+.article-container {
     max-width: 720px;
 }
-.main-banner-image{
-    background-image: url('../images/IMAGE.jpg'); background-size: cover; background-repeat: no-repeat; position: absolute;
+
+.main-banner-image {
+    background-image: url('../images/IMAGE.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
     right: 0;
     top: 0;
     width: 50%;
     height: 90vh;
 }
-.section-container{
-    padding: 100px  0;
+
+.section-container {
+    padding: 100px 0;
 }
-.our-firm{
+
+.our-firm {
     max-width: 768px;
     margin: auto;
 }
-.our-firm-h3{
+
+.our-firm-h3 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -129,10 +153,12 @@ h1{
     line-height: 38px;
     color: #403E3B;
 }
-.our-firm-text{
+
+.our-firm-text {
     max-width: 493px;
 }
-.our-firm-text p{
+
+.our-firm-text p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -141,20 +167,24 @@ h1{
     color: #403E3B;
     margin-bottom: 10px;
 }
-.our-firm-text p:last-of-type{
+
+.our-firm-text p:last-of-type {
     margin-bottom: 18px;
 
 }
-.s-flex{
+
+.s-flex {
     display: flex;
     justify-content: start;
     align-content: center;
 }
-.name{
+
+.name {
     padding-left: 30px;
     padding-top: 20px;
 }
-.name p:first-of-type{
+
+.name p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -163,8 +193,9 @@ h1{
     color: #1B1A1A;
     margin-bottom: 0;
 }
-.name p:last-of-type{
-    font-family:'Poppins', sans-serif;
+
+.name p:last-of-type {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -172,12 +203,50 @@ h1{
     color: #645C55;
     margin-top: 0;
 }
-.subsection{
+.ground-gallery{
+    background-image: url("../images/gallery.jpg");
+}
+.portfolio {
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.sub_container {
+    max-width: 285px;
+    margin-right: 75px;
+}
+
+.portfolio .sub_container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.portfolio .sub_container p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+.subsection {
     max-width: 468px;
     margin: auto;
     text-align: center;
 }
-.subsection p{
+
+.subsection p {
     margin-bottom: 13px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -188,7 +257,8 @@ h1{
     text-transform: uppercase;
     color: #645C55;
 }
-.subsection h2{
+
+.subsection h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -196,16 +266,19 @@ h1{
     line-height: 42px;
     color: #1B1A1A;
 }
-.small-container{
+
+.small-container {
     max-width: 294px;
     text-align: center;
 }
-.icons-container{
+
+.icons-container {
     max-width: 1080px;
     margin: auto;
     padding-top: 47px;
 }
-.small-container h4{
+
+.small-container h4 {
     padding-top: 15px;
     padding-bottom: 10px;
     font-family: 'Poppins', sans-serif;
@@ -215,22 +288,25 @@ h1{
     line-height: 26px;
     color: #403E3B;
 }
-.small-container p{
+
+.small-container p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
     text-align: center;
-
     color: #645C55;
 }
 
-.f-small-container h4{
+.f-small-container h4 {
     font-size: 18px;
 }
+
 .f-small-container p {
     font-size: 15px;
+}
+
+.ground-stairway{
+    background-image: url("../images/stairway.jpg");
 }
