@@ -384,3 +384,205 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
+.featured_project{
+    background-color: #F7F7F7;
+    padding-top: 113px;
+    padding-bottom: 111px;
+}
+.featured_project h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+.featured_project p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.featured_project .item{
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+}
+.featured_project .item:hover .description{
+    bottom: 0;
+}
+.featured_project .item .description{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 40px;
+    bottom: -100%;
+    transition: 0.4s;
+}
+.featured_project .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+.featured_project .description h4 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    display: block;
+}
+.featured_project .description a{
+    display: inline-block;
+    background: #1B1A1A;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ui-accordion .ui-accordion-header{
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    padding-top: 53px;
+}
+.ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-content{
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.our-team{
+    background-color: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+
+.our-team h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    margin-bottom: 14px;
+}
+
+.our-team p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+}
+
+.our-team span{
+    display: block;
+    padding-top: 41px;
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
+
+.our-team_description{
+    max-width: 358px;
+}
+
+.team-icon{
+    padding-left: 37px ;
+    max-width: 622px;
+    min-height: 356px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-icon .s-flex{
+    width: 250px;
+    height: 84px;
+}
+
+.our-team .container{
+    display: flex;
+}
+
+.get{
+    background-color: #CEC4BC;
+    padding-top: 100px;
+    padding-bottom: 117px;
+}
+
+.get_description{
+    max-width: 569px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.get_description h4 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.get_description p{
+    font-size: 40px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-top: -7px;
+}
+
+.get .container a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.get .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
