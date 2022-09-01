@@ -586,3 +586,38 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+footer{
+    background-color: #FFFFFF;
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+
+.footer_description {
+    max-width: 365px;
+}
+.footer_description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #645C55;
+    margin-top: 20px;
+}
+.footer_icon{
+    width: 114px;
+    height: 24px;
+}
+
+.footer_icon a:first-of-type{
+    margin-right: 20px;
+}
+.footer_icon a:last-of-type{
+    margin-left: 26px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
